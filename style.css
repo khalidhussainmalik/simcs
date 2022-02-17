@@ -234,6 +234,7 @@ header .fa-bars {
 }
 
 .about .row {
+  /* background: var(--card); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -424,7 +425,7 @@ header .fa-bars {
 }
 
 .contact {
-  background: var(--card);
+  /* background: var(--card); */
 }
 
 .contact .row {
@@ -440,6 +441,7 @@ header .fa-bars {
 }
 
 .contact .row .form-container {
+  /* background: var(--card); */
   width: 50%;
   padding-right: 6rem;
 }
@@ -448,7 +450,8 @@ header .fa-bars {
 textarea {
   height: 4rem;
   width: 100%;
-  background: var(--white);
+  /* background: var(--white); */
+  background: var(--card);
   border: none;
   border-radius: 5rem;
   padding: 0 1rem;
@@ -486,6 +489,8 @@ textarea:focus {
 }
 
 .footer {
+  border-top: .1rem solid #999;
+  /* background: var(--card); */
   text-align: center;
 }
 
