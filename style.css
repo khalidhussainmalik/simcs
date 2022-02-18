@@ -354,6 +354,20 @@ header .fa-bars {
     0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
+.course .box-container .box:hover{
+  background: var(--body);
+}
+
+.course .box-container .box:hover i {
+  border: none;
+  background: var(--body);
+  color: var(-white);
+}
+
+.course .box-container .box:hover h3 {
+  color: var(--white);
+}
+
 .course .box-container .box i {
   height: 10rem;
   width: 10rem;
