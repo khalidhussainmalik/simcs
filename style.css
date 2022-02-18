@@ -380,6 +380,60 @@ header .fa-bars {
   color: var(--para);
   padding: 1rem 0;
 }
+/* download section */
+.download .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.download .box-container .box {
+  height: 20rem;
+  width: 25rem;
+  background: var(--white);
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+  cursor: pointer;
+}
+.download .box-container .box i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  text-align: center;
+  border-radius: 50%;
+  color: var(--white);
+  background: var(--body);
+  font-size: 3rem;
+  margin: 2rem 0;
+  transition: 0.3s;
+}
+.download .box-container .box h3 {
+  font-size: 2rem;
+  color: var(--title);
+  transition: 0.2s;
+}
+
+.download .box-container .box p {
+  font-size: 1.3rem;
+  padding: 0.7rem 2rem;
+  color: var(--para);
+}
+
+.download .box-container .box:hover {
+  background: var(--body);
+}
+
+.download .box-container .box:hover i {
+  background: var(--white);
+  color: var(--body);
+}
+
+.download .box-container .box:hover h3 {
+  color: var(--white);
+}
+/* end download section */
 
 .review {
   background-color: var(--card);
