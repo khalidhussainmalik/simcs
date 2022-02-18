@@ -149,6 +149,10 @@ header .fa-bars {
   padding: 1rem 25rem;
 }
 
+.home .content p span{
+  color: cyan;
+}
+
 .home .content button {
   height: 4rem;
   width: 20rem;
